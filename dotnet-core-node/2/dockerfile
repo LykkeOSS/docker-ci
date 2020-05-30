@@ -1,0 +1,3 @@
+FROM lykkeoss/dotnet-core-lts-sdks:2
+
+RUN apk update && apk add nodejs && apk add npm
