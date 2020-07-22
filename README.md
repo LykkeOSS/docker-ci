@@ -27,8 +27,8 @@ environments (see notes below).
 
 | Tag | OS Version / Arch | Contents | Dockerfile | CLI |
 | - | - | - | - | - |
-| 1 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:1, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-lts-sdks/1/dockerfile) | `docker pull lykkeoss/dotnet-core-node:1` |
-| 2 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:2, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-lts-sdks/2/dockerfile) | `docker pull lykkeoss/dotnet-core-node:2` |
+| 1 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:1, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-node/1/dockerfile) | `docker pull lykkeoss/dotnet-core-node:1` |
+| 2 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:2, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-node/2/dockerfile) | `docker pull lykkeoss/dotnet-core-node:2` |
 
 [View on DockerHub](https://hub.docker.com/repository/docker/lykkeoss/dotnet-core-node)
 
