@@ -20,6 +20,8 @@ environments (see notes below).
 | - | - | - | - | - |
 | 1 | Alpine 3.11 / x64 | .NET Core SDK 3.1.200, .NET Core SDK 2.1.805. git 2.24.3, docker-cli 19.03.5 | [dockerfile](dotnet-core-lts-sdks/1/dockerfile) | `docker pull lykkeoss/dotnet-core-lts-sdks:1` |
 | 2 | Alpine 3.11 / x64 | .NET Core SDK 3.1.300, .NET Core SDK 2.1.806. git 2.24.3, docker-cli 19.03.5 | [dockerfile](dotnet-core-lts-sdks/2/dockerfile) | `docker pull lykkeoss/dotnet-core-lts-sdks:2` |
+| 3 | Alpine 3.11 / x64 | .NET Core SDK 3.1.300, .NET Core SDK 2.1.806. git 2.24.3, docker-cli 19.03.5 | [dockerfile](dotnet-core-lts-sdks/3/dockerfile) | `docker pull lykkeoss/dotnet-core-lts-sdks:3` |
+
 
 [View on DockerHub](https://hub.docker.com/repository/docker/lykkeoss/dotnet-core-lts-sdks)
 
@@ -29,6 +31,7 @@ environments (see notes below).
 | - | - | - | - | - |
 | 1 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:1, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-node/1/dockerfile) | `docker pull lykkeoss/dotnet-core-node:1` |
 | 2 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:2, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-node/2/dockerfile) | `docker pull lykkeoss/dotnet-core-node:2` |
+| 3 | Alpine 3.11 / x64 | Based on lykkeoss/dotnet-core-lts-sdks:3, node 12.15.0, npm 6.13.4  | [dockerfile](dotnet-core-node/3/dockerfile) | `docker pull lykkeoss/dotnet-core-node:3` |
 
 [View on DockerHub](https://hub.docker.com/repository/docker/lykkeoss/dotnet-core-node)
 
