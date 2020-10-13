@@ -1,0 +1,5 @@
+FROM lykkeoss/dotnet-core-lts-sdks:3
+
+RUN apk update && apk add nodejs && apk add npm
+
+RUN npm install yarn@1.22.0 -g
